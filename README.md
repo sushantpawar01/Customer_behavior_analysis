@@ -1,28 +1,29 @@
-# [cite_start]Customer Shopping Behavior Analysis [cite: 1]
+#Customer Shopping Behavior Analysis
 
 ## 📌 Project Overview
-[cite_start]This project analyzes customer shopping behavior using transactional data from **3,900 purchases** across various product categories[cite: 3]. [cite_start]The goal is to uncover insights into spending patterns, customer segments, product preferences, and subscription behavior to guide strategic business decisions[cite: 4].
+This project analyzes customer shopping behavior using transactional data from **3,900 purchases** across various product categories.
+The goal is to uncover insights into spending patterns, customer segments, product preferences, and subscription behavior to guide strategic business decisions[cite: 4].
 
 ## 📂 Dataset Summary
-* [cite_start]**Dimensions:** 3,900 Rows, 18 Columns [cite: 6, 7]
-* [cite_start]**Key Features:** * **Customer Demographics:** Age, Gender, Location, Subscription Status [cite: 9]
-    * [cite_start]**Purchase Details:** Item Purchased, Category, Purchase Amount, Season, Size, Color [cite: 10]
-    * [cite_start]**Behavior:** Discount Applied, Promo Code Used, Previous Purchases, Frequency, Review Rating, Shipping Type [cite: 11]
-* [cite_start]**Data Quality:** Identified 37 missing values in the `Review Rating` column[cite: 12].
+* **Dimensions:** 3,900 Rows, 18 Columns
+* **Key Features:** * **Customer Demographics:** Age, Gender, Location, Subscription Status 
+* **Purchase Details:** Item Purchased, Category, Purchase Amount, Season, Size, Color 
+* **Behavior:** Discount Applied, Promo Code Used, Previous Purchases, Frequency, Review Rating, Shipping Type
+* **Data Quality:** Identified 37 missing values in the `Review Rating` column.
 
 ## 🛠 Tech Stack
-* [cite_start]**Python (Pandas):** Data cleaning, imputation, and feature engineering[cite: 15, 19].
-* [cite_start]**PostgreSQL:** Structured data analysis and business transaction queries[cite: 25, 27].
-* [cite_start]**Power BI:** Interactive dashboard for data visualization[cite: 62].
+* **Python (Pandas):** Data cleaning, imputation, and feature engineering.
+* **PostgreSQL:** Structured data analysis and business transaction queries.
+* **Power BI:** Interactive dashboard for data visualization.
 
 ## ⚙️ Methodology
 
 ### 1. Data Cleaning & Feature Engineering (Python)
-* [cite_start]**Imputation:** Missing `Review Rating` values were filled using the median rating of each product category[cite: 19].
-* [cite_start]**Standardization:** Columns were renamed to snake_case for better readability[cite: 20].
-* [cite_start]**Feature Engineering:** * Created `age_group` column by binning customer ages[cite: 22].
-    * [cite_start]Created `purchase_frequency_days` column[cite: 23].
-* [cite_start]**Optimization:** Verified redundancy and dropped `promo_code_used`[cite: 24].
+* **Imputation:** Missing `Review Rating` values were filled using the median rating of each product category.
+* **Standardization:** Columns were renamed to snake_case for better readability].
+* **Feature Engineering:** * Created `age_group` column by binning customer ages.
+    * Created `purchase_frequency_days` column.
+* **Optimization:** Verified redundancy and dropped `promo_code_used`.
 
 ### 2. Exploratory Data Analysis (SQL)
 [cite_start]Structured SQL queries were executed to answer key business questions[cite: 27]. Key findings included:
