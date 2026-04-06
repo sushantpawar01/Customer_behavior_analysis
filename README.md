@@ -10,7 +10,7 @@ The goal is to uncover the insights into spending patterns, customer segments, p
 * **Behavior:** Discount Applied, Promo Code Used, Previous Purchases, Frequency, Review Rating, Shipping Type
 * **Data Quality:** Identified 37 missing values in the `Review Rating` column.
 
-## 🛠 Tech Stack
+## 🛠 Tech Stacks
 * **Python (Pandas):** Data cleaning, imputation, and feature engineering.
 * **PostgreSQL:** Structured data analysis and business transaction queries.
 * **Power BI:** Interactive dashboard for data visualization.
